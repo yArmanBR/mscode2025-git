@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .CIDADES {
+            text-align: left;
+
+
+
+        }
+
+
+
+    </style>
+ 
+</head>
+<body>
+    <h1 style="text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;">CADASTRAR</h1> 
+    <form style="text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <br> Nome: <input type="text">
+        <br> E-mail: <input type="email">
+        <br> Senha: <input type=" password">
+        <br> Data de Nascimento <input type="date">
+        <h2>Cidade de Origem </h2>
+         Pinheiros <input class="CIDADES" type ="checkbox"> 
+        <br> Maranhão <input class = "CIDADES" type ="checkbox"> 
+        <br> Vtória <input  class = "CIDADES" type ="checkbox"> 
+        <br> <input class="CIDADES" type ="checkbox"> Aceito os termos
+        <br> <button style="font-family: Arial, Helvetica, sans-serif;"> Criar conta</button>
+
+
+    </form>
+    
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+
+
+.PRODUTOS {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   border: black;
+   font-size:80px;
+   background-color: rgb(11, 3, 82);
+   font-weight: bold;
+
+
+}
+.table{
+    font-size: 5em;
+    background-color: rgb(11, 3, 82);
+   align-items: center;
+   padding: 70px;
+   width: 50%;
+
+    
+}
+td:not(:has(img)){
+    color: white;
+    text-align: center;
+    box-sizing:content-box;
+    padding: 5px 20px;
+}
+th {
+  
+    color: white;
+}
+ul {
+    display: flex;
+    width: 90;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 20px;
+        background: black;
+        height: 20px;
+    
+
+}
+#CORPO {
+    background-color:darkblue;
+
+}
+h1 {
+    color:white;
+}
+h2 {
+    color:white;
+}
+h3 {
+    color: white;
+
+}
+h4 {
+    color:white;
+}
+h5 {
+    color:white;
+}
+h6 {
+    color: white;
+}
+a {
+    color: red;
+}
+header {
+display: flex;
+width: 95;
+align-items: center;
+justify-content: space-between;
+padding: 12px 20px;
+    background: black;
+    height: 30px;
+
+}
+section {
+    display: flex;
+width: 90;
+align-items: flex-end;
+justify-content: space-between;
+padding: 10px 20px;
+    background: black;
+    height: 20px;
+}
+label {
+    display: flex-end;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+thead {
+    color: darkgrey;
+}
+td img{
+   display: block;
+   object-fit: cover;
+    
+}
+form h3{
+    font-weight: bold;
+
+}
+input {
+    width: 50%;
+}
+#text {
+    width: 20%;
+}
+

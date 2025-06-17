@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #ff0000;
+      color: white;
+    }
+
+    .container {
+      background-color: rgb(88, 10, 10);
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    input {
+      padding: 10px;
+      margin: 5px;
+      width: 120px;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: #d9534f;
+      color: white;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #c9302c;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Calculadora</h2>
+    <input type="number" id="numero1" placeholder="Número 1">
+    <input type="number" id="numero2" placeholder="Número 2"><br>
+    <button onclick="calcular('somar')">Somar</button>
+    <button onclick="calcular('subtrair')">Subtrair</button>
+    <div id="resultado">Resultado: </div>
+  </div>
+
+  <script>
+    function calcular(operacao) {
+      const numero1 = parseFloat(document.getElementById("numero1").value);
+      const numero2 = parseFloat(document.getElementById("numero2").value);
+
+      let resultado;
+      if (operacao === 'somar') {
+        resultado = numero1 + numero2;
+      } else if (operacao === 'subtrair') {
+        resultado = numero1 - numero2;
+      }
+
+      document.getElementById("resultado").innerText = "Resultado: " + resultado;
+    }
+  </script>
+</body>
+</html>
